@@ -1,0 +1,24 @@
+.list-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin: 5px 0;
+    background-color: #f9f9f9;
+}
+
+.list-item span {
+    font-weight: bold;
+}
+
+.list-item button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.list-item button:hover {
+    background-color: darkred;
+}
